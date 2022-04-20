@@ -2,11 +2,11 @@ from turtle import Turtle, Screen
 from pydub.playback import play
 from pygame import mixer
 import time
-from Day20_snake import Snake
-from Day20_Playagain import playagain
-from Day20_food import Food
-from Day20_Scoreboard import Score
-from Day20_Playagain import playagain
+from snake_move import Snake
+from playagain import playagain
+from food import Food
+from scoreboard import Score
+# from Day20_Playagain import playagain
 
 
 def snakegame():
